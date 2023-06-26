@@ -1,0 +1,45 @@
+<html>
+<head>
+
+    <title>layout6</title>
+
+    <style>
+        .content-area {
+          display: flex;
+          flex-wrap: wrap;
+        }
+        
+        .box {
+          width: 362px;
+          height: 300px;
+          background-color: #f2f2f2;
+          border: 1px solid #ccc;
+          margin: 5px;
+        }
+      </style>
+    
+
+
+</head>
+
+<body>
+
+    <div style= "display: flex; background-color: aquamarine; width: 98%; height: 20%; border: #ccc;">HEARDER</div>
+    <div class="content-area">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        </div>
+
+        <div style= "background-color: rgb(255, 0, 234); border:1px solid rgb(228, 164, 164); width: 70%; height: 500px; float: left; margin-top: 5px; margin-bottom: 5px">Article</div>
+        
+        <div style= "background-color: rgb(172, 164, 171); border:1px solid rgb(228, 164, 164); width: 29%; height: 500px; float: left; margin-left: 5px;">SiDEBAR</div>
+
+
+        <div style= "display: flex; background-color: aquamarine; width: 99%; height: 50px; margin-top: 5px;">FOOTER</div>
+</body>
+
+
+
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inline CSS Layout</title>
+</head>
+<body>
+  
+<div style= "display: flex; background-color: aquamarine; width: 99%; height: 50px; margin-bottom: 5px;">LOGO</div>
+<div style= "display: flex; background-color: purple; width: 99%; height: 30px; margin-bottom: 5px; text-align: center">NAVIGATION BAR</div>
+<div style= "display: flex; background-color: rgb(102, 128, 0); width: 99%; height: 80px">HEADER/BANNER</div>
+<div style= "background-color: rgb(255, 0, 234); border:1px solid rgb(228, 164, 164); width: 20%; height: 500px; float: left; margin-top: 5px;">SiDEBAR</div>
+<div style= "background-color: rgb(255, 0, 0); border:1px solid rgb(220, 24, 165); width: 78.5%; height: 500px; float: left; margin-left: 5px; margin-top: 5px;">BODY AREA</div>
+<div style= "background-color: orange; border:1px solid black; width: 99%; height: 80px; float: left; margin-top: 5px;">FOOTER</div>
+
+</body>
+</html>

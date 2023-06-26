@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>layout5</title>
+</head>
+
+
+<style>
+    .content-area {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .box {
+      width: 362px;
+      height: 362px;
+      background-color: #f2f2f2;
+      border: 1px solid #ccc;
+      margin: 5px;
+    }
+  </style>
+
+<body>
+
+    <div style= "display: flex; background-color: grey; width: 99%; height: 99px; margin-bottom: 5px;">LOGO
+        <div style= "display: inline-block; background-color: grey; width: 99%; height: 99px; text-align: center">NAVIGATION</div>
+    </div>
+    <div class="content-area">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        </div>
+
+      
+        <div style= "display: flex; background-color: grey; width: 99%; height: 99px; margin-bottom: 5px;">FOOTER</div>
+       
+
+
+
+
+</body>
+
+</html>

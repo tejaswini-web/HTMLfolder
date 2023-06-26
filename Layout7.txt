@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> layout7</title>
+
+<style>
+    .content-area {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .box {
+      width: 400px;
+      height: 250px;
+      background-color: red;
+      border: 1px solid: black;
+      margin: 5px;
+    }
+
+    .rect{
+
+width: 807px;
+height: 242px;
+background-color: orange;
+border: 1px solid: rebeccapurple;
+margin: 5px;
+
+
+    }
+  </style>
+
+
+
+</head>
+<body>
+
+
+    <div style= "display: flex; background-color: aquamarine; width: 95%; height: 100px; margin-bottom: 5px;">BANNER</div>
+    <div style= "display: flex; background-color: aquamarine; width: 95%; height: 100px; margin-bottom: 5px;">NAVIGATION BAR</div>
+
+    <div style= "background-color: rgb(255, 0, 234); border:1px solid rgb(228, 164, 164); width: 40%; height: 500px; float: left; margin-top: 5px;">MAIN content-area</div>
+    
+    
+    
+    <div class="content-area">
+    <div class="box">PICTURE</div>
+    <div class="box">ABOUT ME</div>
+
+    <div class="rect">RECENT TWEETS</div>
+</div>
+
+
+<div style= "display: flex; background-color: aquamarine; width: 95%; height: 100px; margin-bottom: 5px;">FOOTER</div>
+</body>
+</html>
